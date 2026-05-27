@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Playwright visual snapshots
+# In a real project you would commit these so CI uses the same baseline as
+# local development. In this tutorial repo they are ignored so learners
+# generate their own reference images on first run.
+tests/**/*-snapshots/
